@@ -1,0 +1,51 @@
+# Cocos2d-x General Project Files to Ignore
+# (Build artifacts, platform-specific binaries, temporary files)
+
+# --- Output and Build Directories ---
+bin
+build
+Simulator
+
+# --- Platform Project Artifacts ---
+# Ignore entire IDE project folders as they contain large binaries and user settings
+proj.android-studio
+proj.android
+proj.ios_mac
+proj.win32
+proj.linux
+proj.wp8
+proj.tizen
+proj.tvos
+
+# --- C++ and Compiler Artifacts ---
+# Object files, libraries, executables
+.o
+.a
+.so
+.dylib
+.dll
+.exe
+.obj
+.lib
+.pdb
+.ilk
+
+# --- Visual Studio Specific Files ---
+# Ignore user-specific files and solution management files
+.vs
+.vcxproj.filters
+.vcxproj.user
+.sln.GhostSln
+.sln.stash
+.suo
+.user
+.ncb
+.aps
+.opendb
+.sdf
+ipch
+
+# --- IDEOS Temporary Files ---
+.DS_Store
+.swp
+~
